@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@animxyz/core@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.npmmirror.com/@animxyz/core/download/@animxyz/core-0.6.4.tgz#ce828f3b349d5f18e8099a31b006a57cdbb05b93"
+  integrity sha1-zoKPOzSdXxjoCZoxsAalfNuwW5M=
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -1098,7 +1103,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.7.6", "@babel/runtime@^7.9.2":
   version "7.16.3"
   resolved "https://registry.npmmirror.com/@babel/runtime/download/@babel/runtime-7.16.3.tgz?cache=0&sync_timestamp=1636495173603&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.16.3.tgz#b86f0db02a04187a3c17caa77de69840165d42d5"
   integrity sha512-WBwekcqacdY2e9AF/Q7WLFUWmdJGJTkbjqTjoMDgXkVZ3ZRUvOPsLb5KdwISoQVsbP+DQzVZW4Zhci0DvpbNTQ==
@@ -5625,6 +5630,13 @@ highlight.js@^10.4.1, highlight.js@~10.7.0:
   resolved "https://registry.npmmirror.com/highlight.js/download/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha1-aXJy45kTVuQMPKxWanTu9oF1ZTE=
 
+history@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/history/download/history-5.1.0.tgz#2e93c09c064194d38d52ed62afd0afc9d9b01ece"
+  integrity sha1-LpPAnAZBlNONUu1ir9CvydmwHs4=
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -9789,6 +9801,21 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-router-dom@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.npmmirror.com/react-router-dom/download/react-router-dom-6.0.2.tgz#860cefa697b9d4965eced3f91e82cdbc5995f3ad"
+  integrity sha512-cOpJ4B6raFutr0EG8O/M2fEoyQmwvZWomf1c6W2YXBZuFBx8oTk/zqjXghwScyhfrtnt0lANXV2182NQblRxFA==
+  dependencies:
+    history "^5.1.0"
+    react-router "6.0.2"
+
+react-router@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.npmmirror.com/react-router/download/react-router-6.0.2.tgz#bd2b0fa84fd1d152671e9f654d9c0b1f5a7c86da"
+  integrity sha512-8/Wm3Ed8t7TuedXjAvV39+c8j0vwrI5qVsYqjFr5WkJjsJpEvNSoLRUbtqSEYzqaTUj1IV+sbPJxvO+accvU0Q==
+  dependencies:
+    history "^5.1.0"
+
 react-scripts@4.0.3:
   version "4.0.3"
   resolved "https://registry.npmmirror.com/react-scripts/download/react-scripts-4.0.3.tgz?cache=0&sync_timestamp=1633372712012&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-scripts%2Fdownload%2Freact-scripts-4.0.3.tgz#b1cafed7c3fa603e7628ba0f187787964cb5d345"
@@ -11290,6 +11317,11 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+three@^0.134.0:
+  version "0.134.0"
+  resolved "https://registry.npmmirror.com/three/download/three-0.134.0.tgz?cache=0&sync_timestamp=1636706775671&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fthree%2Fdownload%2Fthree-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"
+  integrity sha1-161NhdBQ2ghhvzl0mwbd+18XFX8=
 
 throat@^5.0.0:
   version "5.0.0"
