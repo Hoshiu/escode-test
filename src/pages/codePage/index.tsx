@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/code.css";
-import AddMarkdown from "./addMarkdown";
+import AddMarkdown from "./AddMarkdown";
 
 const CodePage = () => {
   const questions = {
