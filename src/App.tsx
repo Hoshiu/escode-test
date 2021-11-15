@@ -1,9 +1,9 @@
 import './App.css';
-import CodePage from './pages/codePage';
+import RouterList from './router';
 
 function App() {
   return (
-    <CodePage/>
+    <RouterList/>
   );
 }
 
