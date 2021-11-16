@@ -19,13 +19,13 @@ const Editor = () => {
       }}
       value={code}
       wrapEnabled
-      highlightActiveLine //突出活动线
-      enableSnippets //启用代码段
+      highlightActiveLine 
+      enableSnippets 
       style={{ width: "100%", height: "100%" }}
       setOptions={{
-        enableBasicAutocompletion: true, //启用基本自动完成功能
-        enableLiveAutocompletion: true, //启用实时自动完成功能 （比如：智能代码提示）
-        enableSnippets: true, //启用代码段
+        enableBasicAutocompletion: true, 
+        enableLiveAutocompletion: true, 
+        enableSnippets: true,
         showLineNumbers: true,
         tabSize: 2,
       }}
