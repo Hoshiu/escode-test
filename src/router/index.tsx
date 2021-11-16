@@ -8,7 +8,7 @@ const RouterList = () => {
       <Route path="/" element={<HomePage />} />
       <Route path="/game" element={<CodePage />} />
       <Route path="/rand" element={<RandPage />} />
-    </Routes>
+    </Routes> 
   );
 };
 
