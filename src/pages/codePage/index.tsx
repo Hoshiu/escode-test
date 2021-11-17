@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/code.css";
 import AddMarkdown from "./addMarkdown";
+import Editor from "./editor";
 
 const CodePage = () => {
   const questions = {
@@ -45,14 +46,7 @@ A table:
       </div>
       <div className="scroll-col"></div>
       <div className="right-content">
-        <textarea
-          style={{
-            marginLeft: "2rem",
-            marginTop: "2rem",
-            height: "90%",
-            width: "90%",
-          }}
-        ></textarea>
+        <Editor/>
       </div>
     </div>
   );
