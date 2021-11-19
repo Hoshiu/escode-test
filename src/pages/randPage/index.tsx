@@ -5,6 +5,7 @@ import Editor from "./editor";
 import '../listOperate'
 import { getList } from "../listOperate";
 import { Link } from "react-router-dom";
+import Modal from '../Modal'
 
 interface dataList {
   Id: Number,
@@ -51,6 +52,7 @@ const RandPage = () => {
           <span style={{marginLeft: '2rem'}}>提交</span>
         </button>
       </div>
+      {/* <Modal > */}
     </div>
   );
 };
