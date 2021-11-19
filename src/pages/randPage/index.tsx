@@ -3,8 +3,9 @@ import '../../styles/code.css'
 import AddMarkdown from './addMarkdown'
 import Editor from './editor'
 import '../listOperate'
-import { getList } from '../listOperate'
-import { Link,useParams } from 'react-router-dom'
+import { getList } from "../listOperate";
+import { Link,useParams } from "react-router-dom";
+import Modal from '../Modal'
 
 export interface dataList {
   Id: number
@@ -31,7 +32,7 @@ const RandPage = () => {
       }
       
     })()
-  }, [])
+  }, [Id])
 
   return (
     <div className="body-content">
@@ -70,6 +71,7 @@ const RandPage = () => {
           <span style={{ marginLeft: '2rem' }}>提交</span>
         </button>
       </div>
+      {/* <Modal > */}
     </div>
   )
 }
