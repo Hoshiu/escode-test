@@ -7,7 +7,7 @@ import { getList } from "../listOperate";
 import { Link } from "react-router-dom";
 import Modal from '../Modal'
 
-interface dataList {
+export interface dataList {
   Id: Number,
   Name: String,
   Description: String
