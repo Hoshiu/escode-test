@@ -22,29 +22,29 @@ body {
   grid-gap: 50px;
 }
 
-.button {
+.button1 {
   width: 200px;
-  height: 80px;
+  height: 100px;
   cursor: pointer;
   position: relative;
   display: grid;
-  font-size: 25px;
+  font-size: 22px;
 }
-.button span {
+.button1 span {
   margin: auto;
   font-weight: 600;
   display: block;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 
 /*****BUTTON BOUNCE*****/
-.container-button {
+.container-button1 {
   cursor: pointer;
 }
-.container-button:hover .button {
+.container-button1:hover .button1 {
   animation: buttonAnimation 0.7s cubic-bezier(0.17, 0.67, 0.72, 1.53);
 }
-.container-button .button--bounce {
+.container-button1 .button--bounce1 {
   border-radius: 50px;
   background-color: #fff;
   box-shadow: 0.5px 5px tomato, 0.5px 20px 15px #00000080;
@@ -76,6 +76,6 @@ body {
   margin-right: auto;
   margin-top: 14rem;
 }
-.container-button {
+.container-button1 {
   margin-left: 5rem;
 }
