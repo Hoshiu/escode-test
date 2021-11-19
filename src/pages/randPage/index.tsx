@@ -6,7 +6,7 @@ import '../listOperate'
 import { getList } from "../listOperate";
 import { Link } from "react-router-dom";
 
-interface dataList {
+export interface dataList {
   Id: Number,
   Name: String,
   Description: String

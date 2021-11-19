@@ -1,35 +1,81 @@
-#container {
+.container {
   width: 100vw;
   height: 100vh;
 }
-
+.button-container {
+  display: flex;
+  height:45vh;
+  justify-content: center;
+  align-items: center;
+}
 body {
   font-family: sans-serif;
   background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
 
 }
-
-.node {
-      cursor: pointer;
+.container-buttons {
+  width: 50vw;
+  justify-content: center;
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
 }
 
-.node:hover {
-  stroke: #000;
-  stroke-width: 1.5px;
+.button {
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  font-size: 25px;
+}
+.button span {
+  margin: auto;
+  font-weight: 600;
+  display: block;
+  font-size: 1em;
 }
 
-.node--leaf {
-  fill: white;
+/*****BUTTON BOUNCE*****/
+.container-button {
+  cursor: pointer;
 }
-
-.label {
-  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+.container-button:hover .button {
+  animation: buttonAnimation 0.7s cubic-bezier(0.17, 0.67, 0.72, 1.53);
 }
-
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
+.container-button .button--bounce {
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0.5px 5px tomato, 0.5px 20px 15px #00000080;
+  transform-origin: center bottom;
+  color: tomato;
+}
+@keyframes buttonAnimation {
+  0%, 30% {
+    transform: scale(1.5, 0.5);
+  }
+  30%, 40% {
+    transform: scale(1.3, 1);
+  }
+  30%, 50% {
+    transform: scale(1, 1.3);
+  }
+  50%, 70% {
+    transform: scale(1.2, 1);
+  }
+  70%, 90% {
+    transform: scale(1, 1.2);
+  }
+  90%, 100% {
+    transform: scale(1, 1);
+  }
+}
+.container-buttons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14rem;
+}
+.container-button {
+  margin-left: 5rem;
 }
